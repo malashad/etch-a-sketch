@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+header {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6em;
+    align-items: center;
+}
+
+.menu button {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    width: 10vw;
+    font-size: 1.2em;
+}
+
+#container {
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    box-shadow: -0.1em -0.1rem 0.5rem 0.5rem gray;
+    border-radius: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gridbox {
+    background-color: blanchedalmond;
+    color: white;
+    margin: 0;
+    border: 1px solid burlywood;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    width: 100vw;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
